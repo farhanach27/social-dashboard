@@ -17,6 +17,7 @@ const UserPosts = (props) => {
 
     return (
         <div>
+            <h3>Posts</h3>
             {posts.map ( (post) => {
                 return (
                     <div key={post.id}>
